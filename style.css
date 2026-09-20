@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+.start-btn {
+    font-size: 1.1rem;
+    padding: 10px 24px;
+    margin: 10px auto 20px;
+    background-color: #222;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.start-btn:hover {
+    background-color: #444;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: pink;
+}
+
+.yellow {
+    background-color: rgb(205, 231, 101);
+}
+
+.green {
+    background-color: rgb(128, 159, 16);
+}
+
+.purple {
+    background-color: rgb(39, 172, 189);
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
